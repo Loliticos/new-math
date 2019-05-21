@@ -1,14 +1,14 @@
 # __Real Math__
     
-   __A arithmetical package that will facilitate your programming life. Made by [Loliticos](https://github.com/Loliticos)__
+ __A arithmetical package that will facilitate your programming life. Made by [Loliticos](https://github.com/Loliticos)__
    
-   ## How to install:
+## How to install:
    
-   ```
-   npm i real-math  
-   ```
+```
+npm i real-math  
+```
   
-  ## Example
+## Example
   
 ```js
 const Math = require('real-math');
@@ -24,6 +24,4 @@ console.log(max)
 const min = Math.min(1, 2, 3) // Expected output: 1
 
 console.log(min)
-
 ```
-
