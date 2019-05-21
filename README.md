@@ -4,7 +4,9 @@
    
    ## How to install:
    
-   > npm i real-math  
+   ```
+   npm i real-math  
+   ```
   
   ## Example
   
