@@ -1,15 +1,15 @@
-# __New Math__
+# __Real Math__
     
    __A arithmetical package that will facilitate your programming life. Made by [Loliticos](https://github.com/Loliticos)__
    
    ##### How to install:
    
-   > npm i new-math  
+   > npm i real-math  
   
   ## Example
   
 ```js
-const Math = require('new-math');
+const Math = require('real-math');
 
 const random = Math.random(10, 900) // Min: 10 Max: 900
 
