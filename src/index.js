@@ -1,4 +1,4 @@
-module.exports.math = class realMath {
+module.exports = class realMath {
     static sum (...props)  {
         return props.reduce((sum, item) => sum + item).toString()
     }

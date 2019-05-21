@@ -1,6 +1,6 @@
 {
   "name": "real-math",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A arithmetical package that will facilitate your programming life",
   "main": "index.js",
   "repository": {
