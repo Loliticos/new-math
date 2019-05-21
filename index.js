@@ -1,8 +1,9 @@
-module.exports.math = class realMath {
+module.exports = class realMath {
+
     static sum (...props)  {
         return props.reduce((sum, item) => sum + item).toString()
     }
-
+    
     static min (...argument) {
         return argument.sort((firstValue, secondValue) => secondValue - firstValue).slice(-1).toString()
     }
