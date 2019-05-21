@@ -1,4 +1,4 @@
-module.exports = class BetterMath {
+module.exports.math = class realMath {
     static sum (...props)  {
         return props.reduce((sum, item) => sum + item).toString()
     }
@@ -14,7 +14,7 @@ module.exports = class BetterMath {
     static random (min, max) {
 
         if(!min || !max) {
-            return BetterMath.random(1, 100)
+            return realMath.random(1, 100)
         }
 
         return min + Math.random() * (max - min);

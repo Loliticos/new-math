@@ -1,23 +1,20 @@
 {
-  "name": "new-math",
-  "version": "1.0.0",
+  "name": "real-math",
+  "version": "1.0.7",
   "description": "A arithmetical package that will facilitate your programming life",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Loliticos/new-math.git"
+    "url": "git+https://github.com/Loliticos/real-math.git"
   },
   "keywords": [
     "math",
-    "newMath"
+    "real-math"
   ],
   "author": "Loliticos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Loliticos/new-math/issues"
+    "url": "https://github.com/Loliticos/real-math/issues"
   },
-  "homepage": "https://github.com/Loliticos/new-math#readme"
+  "homepage": "https://github.com/Loliticos/real-math#readme"
 }
