@@ -1,4 +1,4 @@
-const Math = require('../src/index.js');
+const Math = require('../index.js');
 
 function min(a, b, c) {
     return Math.min(a, b, c)

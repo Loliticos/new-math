@@ -1,4 +1,4 @@
-const Math = require('../src/index.js');
+const Math = require('../index.js');
 
 function random(min, max) {
     return Math.ceil(Math.random(min, max));
