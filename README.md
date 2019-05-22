@@ -2,7 +2,7 @@
     
  __A arithmetical package that will facilitate your programming life. Made by [Loliticos](https://github.com/Loliticos)__
    
-## How to install:
+## How to install
    
 ```
 npm i real-math  
