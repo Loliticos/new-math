@@ -32,4 +32,39 @@ module.exports = class realMath {
 
         return toFloor.toFixed(0)
     }
+
+    static sub (...argument) {
+        return argument.reduce((firstValue, secondValue) => firstValue - secondValue).toString()
+    }
+
+    static average (...argument) {
+        const medium =  argument.reduce((firstValue, secondValue) => firstValue + secondValue).toString()
+
+        const number = argument.length
+
+        return medium / number
+    }
+
+    static percentage(percentage = 35, value = 500) {
+        return (percentage * value) / 100
+    }
+
+    static imc(height = 1.70, weight = 70, reduce = false) {
+        /*Por exemplo, uma pessoa com 1,70 m e 70 kg fará o seguinte cálculo:
+
+        Altura multiplicada por ela mesma: 1,70 x 1,70 = 2,89
+        Peso dividido pelo quadrado da altura: 70 / 2,89 = 24,22
+        */  
+
+        const newHeight = height * height
+
+        const value = weight / newHeight
+
+        if(reduce === false) {
+            return value
+        } else if(reduce === true) {
+            return value.toFixed(2)
+        }
+    }
+
 }
